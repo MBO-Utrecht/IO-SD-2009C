@@ -1,11 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Warehouse.Application.Interfaces;
 using Warehouse.Domain.Entities;
+using Warehouse.Application.Interfaces;
 
 namespace Warehouse.Infrastructure.Repositories
 {
