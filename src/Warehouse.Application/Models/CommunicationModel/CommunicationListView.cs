@@ -6,7 +6,7 @@
     public class CommunicationListView
     {
         /// <summary>
-        /// Get all customers
+        /// Get all Communication
         /// </summary>
         public IEnumerable<CommunicationView>? Communications { get; set; }
 

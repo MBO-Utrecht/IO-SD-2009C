@@ -10,7 +10,7 @@
         /// </summary>
         public CommunicationEntity()
         {
-            //CustomerCommunicationList = new HashSet<CustomerCommunicationEntity>();
+            CustomerCommunicationList = new HashSet<CustomerCommunicationEntity>();
             //ShipperCommunicationList  = new HashSet<ShipperCommunicationEntity>();
         }
 
@@ -117,7 +117,7 @@
         /// <summary>
         /// List of customer which belong to Communication.
         /// </summary>
-        //public ICollection<CustomerCommunicationEntity> CustomerCommunicationList { get; set; }
+        public ICollection<CustomerCommunicationEntity> CustomerCommunicationList { get; set; }
 
         /// <summary>
         /// List of Shipper which belong to Communication.
