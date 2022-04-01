@@ -7,7 +7,7 @@ using Warehouse.Application.Services.Communication.Queries.GetCommunications;
 namespace Warehouse.WebApi.Installers
 {
     /// <summary>
-    /// Communication installer for DependencyInjection.
+    /// Communication installer for DependencyInjection.test
     /// </summary>
     public class CommunicationInstaller : IInstaller
     {
